@@ -1,13 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+ #include <stdio.h>
+#include<stdlib.h>
+ 
 int main()
 {
-     float celsius = 27,fahrenheit;
+     
+       float celsius ,fahrenheit;
+    
 
-
-      fahrenheit =(celsius*1.8) + 32;
-      printf  ("%f celsius = %f fahrenheit",celsius,fahrenheit);
+     
+       printf("celsius=");
+       scanf("%f",&celsius);
+         
+       fahrenheit =(celsius*1.8) + 32;
+       printf("%f",fahrenheit);
 
 
     return 0;
+}
