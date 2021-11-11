@@ -1,0 +1,31 @@
+
+   
+        
+        
+ #include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+     int fahrenheir=10, celsius ;
+
+     celsius =(fahrenheir-32)/1.8;
+     printf("%d fahrenheir= %d celsius",fahrenheir,celsius);
+     if (celsius<= 0){
+                printf("très froid");
+
+     }
+        if (celsius>= 0){
+                printf("froid");
+
+     }
+       if (celsius>20){
+                printf("chod");
+
+     }
+     if (celsius>30){
+                printf("très chod");
+
+     }
+}
+      
